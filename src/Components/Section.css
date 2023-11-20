@@ -1,0 +1,50 @@
+.Section-container{
+    width: 360px;
+    margin-left: 2.5rem;
+}
+.Section-container:last-child{
+    margin-right: 2.5rem;
+}
+.Section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.Section-header-left, .Section-header-right{
+    display: flex;
+    align-items: center;
+}
+.Section-icon{
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+}
+.Section-title{
+    margin-right: .65rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.Section-add-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.Section-option-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.Section-card-items{
+    width: 100%;
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .Section-container{
+        width: 320px;
+        margin-left: 1.5rem;
+    }
+    .Section-container:last-child{
+        margin-right: 1.5rem;
+    }
+}
